@@ -33,6 +33,15 @@ import hospitalCode from '../assets/images/projects/hospital-management-system/C
 import hospitalOutput1 from '../assets/images/projects/hospital-management-system/Output Screenshot 1.png';
 import hospitalOutput2 from '../assets/images/projects/hospital-management-system/Output screenshot 2.png';
 
+// 07 — Career AI (AI-Powered Career Guidance Platform)
+import careerAIHomePage from '../assets/images/projects/career-ai/HomePage.png';
+import careerAIDashboard from '../assets/images/projects/career-ai/Dashboard.png';
+import careerAIResume from '../assets/images/projects/career-ai/Resume .png';
+import careerAIJobMatcher from '../assets/images/projects/career-ai/Job Matcher.png';
+import careerAIInterview from '../assets/images/projects/career-ai/AI interview.png';
+import careerAIHistory from '../assets/images/projects/career-ai/History.png';
+import careerAIProfile from '../assets/images/projects/career-ai/profile .png';
+
 export const projects = [
   {
     id: 'ai-agent-platform',
@@ -298,7 +307,15 @@ export const projects = [
     developmentProcess: 'Developed using a modern full-stack architecture with React.js for the frontend, Python/FastAPI for the backend API, Supabase for database management, and integrated AI/LLM models for intelligent career guidance and recommendations.',
     challenges: 'Implementing accurate AI-based career recommendations while ensuring the system provides actionable and relevant advice based on user skills, interests, and market trends.',
     futureImprovements: 'Adding advanced AI models for more precise career matching, integration with job market APIs for real-time trends, and enhanced user profile analytics.',
-    images: [],
+    images: [
+      { src: careerAIHomePage, alt: 'Career AI - Landing Page', caption: 'Main Landing Page with AI-Powered Career Coaching' },
+      { src: careerAIDashboard, alt: 'Career AI - User Dashboard', caption: 'User Dashboard with Career Optimization Metrics' },
+      { src: careerAIResume, alt: 'Career AI - Resume Analyzer', caption: 'Resume Management & Upload Interface' },
+      { src: careerAIJobMatcher, alt: 'Career AI - Job Matcher & ATS', caption: 'ATS Match Verdict & Skills Gap Analysis' },
+      { src: careerAIInterview, alt: 'Career AI - AI Mock Interview', caption: 'AI Mock Interview Coach Configuration' },
+      { src: careerAIHistory, alt: 'Career AI - History & Performance', caption: 'History & Past Performance Analytics' },
+      { src: careerAIProfile, alt: 'Career AI - Profile & Settings', caption: 'User Profile & Account Settings' }
+    ],
     githubLink: '',
     liveDemoLink: '',
     figmaLink: '',
