@@ -10,14 +10,14 @@ export const profile = {
   
   aboutMeText: 'I am a Computer Science undergraduate with a strong interest in Front-End Development, Artificial Intelligence, software development, and UI/UX design. I enjoy building interactive web applications, AI-powered systems, Android applications, database-driven systems, and user-focused digital experiences. I am continuously improving my technical skills by working on practical academic and personal projects.',
   
-  cvLink: '/cv-placeholder.pdf',
+  cvLink: '/Mujtaba_Abbas_Resume_Updated_1.pdf',
   
-  // Social and Contact links (using clearly identifiable placeholders)
+  // Social and Contact links
   socialLinks: {
-    github: 'https://github.com/placeholder-mujtaba',
-    linkedin: 'https://linkedin.com/in/placeholder-mujtaba',
-    email: 'mailto:mujtaba.placeholder@example.com',
-    emailDisplay: 'mujtaba.placeholder@example.com'
+    github: 'https://github.com/mujtabaabbas1214-cyber',
+    linkedin: 'https://www.linkedin.com/in/mujtaba-abbas-71325633a/',
+    email: 'mailto:mujtabaabbas870@gmail.com',
+    emailDisplay: 'mujtabaabbas870@gmail.com'
   },
   
   // 4 Professional Highlights for About Section

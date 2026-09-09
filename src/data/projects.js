@@ -270,6 +270,41 @@ export const projects = [
     colabLink: 'https://colab.research.google.com/drive/placeholder-hospital-management',
     videoLink: '',
     apkLink: ''
+  },
+  {
+    id: 'career-ai',
+    slug: 'career-ai',
+    number: '07',
+    name: 'Career AI',
+    category: 'AI / Full-Stack Web Application',
+    isFeatured: true,
+    isMobile: false,
+    accentGlow: 'purple',
+    description: 'A full-stack AI-powered career guidance platform that provides personalized career guidance, skill-based recommendations, and interactive career assistance.',
+    longDescription: 'Career AI is a comprehensive full-stack AI-powered career guidance platform designed to provide personalized career guidance, skill-based recommendations, and interactive career assistance. The platform combines a modern React.js frontend with a robust Python/FastAPI backend, Supabase database integration, and advanced AI/LLM capabilities to deliver intelligent career recommendations and guidance.',
+    technologies: ['React.js', 'Python', 'FastAPI', 'Supabase', 'PostgreSQL', 'REST APIs', 'AI/LLM', 'JavaScript', 'HTML', 'CSS'],
+    features: [
+      'AI-powered career guidance and recommendations',
+      'Personalized career path suggestions',
+      'Skill-based recommendations and analysis',
+      'Interactive AI assistance for career queries',
+      'User authentication and secure profiles',
+      'Supabase database for data management',
+      'REST API integration for seamless communication',
+      'React.js frontend with modern UI/UX',
+      'Python/FastAPI backend for AI processing'
+    ],
+    problem: 'Students and professionals often struggle with choosing the right career path, identifying relevant skills, and getting personalized guidance for their career development in an increasingly complex job market.',
+    developmentProcess: 'Developed using a modern full-stack architecture with React.js for the frontend, Python/FastAPI for the backend API, Supabase for database management, and integrated AI/LLM models for intelligent career guidance and recommendations.',
+    challenges: 'Implementing accurate AI-based career recommendations while ensuring the system provides actionable and relevant advice based on user skills, interests, and market trends.',
+    futureImprovements: 'Adding advanced AI models for more precise career matching, integration with job market APIs for real-time trends, and enhanced user profile analytics.',
+    images: [],
+    githubLink: '',
+    liveDemoLink: '',
+    figmaLink: '',
+    colabLink: '',
+    videoLink: '',
+    apkLink: ''
   }
 ];
 
