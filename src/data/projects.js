@@ -362,7 +362,7 @@ export const projects = [
       { src: carRacingGameOver, alt: 'Car Racing Game - Game Over Screen', caption: 'Game Over Screen with Final Statistics' }
     ],
     githubLink: 'https://github.com/mujtabaabbas1214-cyber/car-racing-game',
-    liveDemoLink: 'https://car-racing-game-plum.vercel.app',
+    liveDemoLink: 'https://car-racing-game-chi-blue.vercel.app',
     figmaLink: '',
     colabLink: '',
     videoLink: '',
