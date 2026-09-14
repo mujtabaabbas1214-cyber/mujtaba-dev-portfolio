@@ -8,7 +8,7 @@ export const profile = {
   heroHeadline: 'Building Modern Web Experiences & AI-Powered Applications.',
   heroDescription: 'Computer Science student and Front-End Developer passionate about creating modern applications, intelligent systems, and meaningful digital experiences.',
   
-  aboutMeText: 'I am a Computer Science undergraduate with a strong interest in Front-End Development, Artificial Intelligence, software development, and UI/UX design. I enjoy building interactive web applications, AI-powered systems, Android applications, database-driven systems, and user-focused digital experiences. I am continuously improving my technical skills by working on practical academic and personal projects.',
+  aboutMeText: 'I am a Computer Science undergraduate with a strong interest in Front-End Development, Artificial Intelligence, software development, and UI/UX design. I enjoy building interactive web applications, AI-powered systems, Android applications, database-driven systems, user-focused digital experiences, and browser-based games. My recent projects include a fully playable Car Racing Game with multiple difficulty levels, AI-powered career guidance platforms, and full-stack web applications. I am continuously improving my technical skills by working on practical academic and personal projects.',
   
   cvLink: '/Mujtaba_Abbas_Resume_Updated_1.pdf',
   
@@ -37,18 +37,18 @@ export const profile = {
       description: 'Crafting responsive, performant, and dynamic single-page applications with React.js, modern CSS, and Vite.'
     },
     {
+      id: 'game-dev',
+      title: 'Game Developer',
+      tagline: 'Browser-Based Games',
+      icon: 'Gamepad',
+      description: 'Building interactive browser games with HTML5 Canvas, JavaScript, and responsive controls. Recent project: Car Racing Game with multiple difficulty levels.'
+    },
+    {
       id: 'ai-enthusiast',
       title: 'AI Enthusiast',
       tagline: 'Intelligent Systems',
       icon: 'Bot',
       description: 'Exploring autonomous agents, LLM integrations, algorithmic reasoning, and AI-powered full-stack solutions.'
-    },
-    {
-      id: 'ui-ux-focused',
-      title: 'UI/UX Focused',
-      tagline: 'Human-Centered Design',
-      icon: 'Sparkles',
-      description: 'Applying HCI principles and Figma prototyping to create intuitive, accessible, and aesthetically refined user interfaces.'
     }
   ],
 
@@ -66,7 +66,9 @@ export const profile = {
       { name: 'HTML', level: 'Advanced', icon: 'FileCode' },
       { name: 'CSS', level: 'Advanced', icon: 'Palette' },
       { name: 'JavaScript', level: 'Advanced', icon: 'Zap' },
-      { name: 'React.js', level: 'Advanced', icon: 'Atom' }
+      { name: 'React.js', level: 'Advanced', icon: 'Atom' },
+      { name: 'HTML5 Canvas', level: 'Intermediate', icon: 'Gamepad' },
+      { name: 'Game Development', level: 'Intermediate', icon: 'Gamepad' }
     ],
     backendAndDatabases: [
       { name: 'PHP', level: 'Intermediate', icon: 'Server' },

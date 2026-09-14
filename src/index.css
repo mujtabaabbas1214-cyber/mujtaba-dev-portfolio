@@ -180,6 +180,67 @@ code, pre {
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
+  
+  /* Mobile-specific improvements */
+  .container {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  
+  h1 {
+    font-size: 2rem !important;
+    line-height: 1.2 !important;
+  }
+  
+  h2 {
+    font-size: 1.75rem !important;
+  }
+  
+  h3 {
+    font-size: 1.25rem !important;
+  }
+  
+  /* Hero section mobile adjustments */
+  #home {
+    padding-top: calc(var(--navbar-height) + 2rem) !important;
+  }
+  
+  /* Project cards mobile */
+  .project-card {
+    flex-direction: column !important;
+  }
+  
+  /* Skills grid mobile */
+  .skills-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+  }
+  
+  /* About highlights mobile */
+  .about-highlights {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.75rem !important;
+  }
+  
+  h2 {
+    font-size: 1.5rem !important;
+  }
+  
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  /* Button adjustments for very small screens */
+  .btn {
+    padding: 0.75rem 1.25rem !important;
+    font-size: 0.9rem !important;
+  }
 }
 
 /* Section Header Component */

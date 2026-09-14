@@ -42,6 +42,12 @@ import careerAIInterview from '../assets/images/projects/career-ai/AI interview.
 import careerAIHistory from '../assets/images/projects/career-ai/History.png';
 import careerAIProfile from '../assets/images/projects/career-ai/profile .png';
 
+// 08 — Car Racing Game (Web Game)
+import carRacingMenu from '../assets/images/projects/car-racing-game/Menu.png';
+import carRacingGameplay from '../assets/images/projects/car-racing-game/Gameplay.png';
+import carRacingGameplay2 from '../assets/images/projects/car-racing-game/Gameplay2.png';
+import carRacingGameOver from '../assets/images/projects/car-racing-game/GameOver.png';
+
 export const projects = [
   {
     id: 'ai-agent-platform',
@@ -318,6 +324,45 @@ export const projects = [
     ],
     githubLink: '',
     liveDemoLink: '',
+    figmaLink: '',
+    colabLink: '',
+    videoLink: '',
+    apkLink: ''
+  },
+  {
+    id: 'car-racing-game',
+    slug: 'car-racing-game',
+    number: '08',
+    name: 'Car Racing Game',
+    category: 'Web Game / HTML5 Canvas',
+    isFeatured: true,
+    isMobile: false,
+    accentGlow: 'red',
+    description: 'A fully playable browser-based car racing game with multiple difficulty levels, coin collection system, and responsive controls. Built with HTML5 Canvas and JavaScript.',
+    longDescription: 'Car Racing Game is a complete, portfolio-quality web-based racing game featuring an Asphalt-inspired arcade experience. The game includes three difficulty levels (Easy, Medium, Hard) with distinct gameplay mechanics, a coin collection system with varying point values, enemy cars with collision detection, and responsive controls supporting both keyboard and touch interfaces. Built with pure HTML5 Canvas and JavaScript for optimal performance without external framework dependencies.',
+    technologies: ['HTML5', 'JavaScript', 'Canvas API', 'CSS3', 'Responsive Design', 'Game Development'],
+    features: [
+      'Three difficulty levels: Easy, Medium, and Hard with unique gameplay parameters',
+      'Coin collection system with different point values based on difficulty (30/50/100 points)',
+      'Dynamic enemy car spawning with collision detection',
+      'Responsive controls: Arrow keys for desktop, touch buttons for mobile/tablet',
+      'Real-time score and coin tracking with live HUD display',
+      'Progressive difficulty scaling with faster speeds and more enemies',
+      'Game over screen with final statistics and restart functionality',
+      'Clean, modern UI with neon-style visual effects'
+    ],
+    problem: 'Browser-based games often suffer from poor performance, lack of responsive controls, and monotonous gameplay without difficulty progression or meaningful mechanics.',
+    developmentProcess: 'Designed the game architecture focusing on clean separation of game logic from rendering, implemented the core game loop using requestAnimationFrame for smooth 60fps performance, created the difficulty system with balanced parameters for each level, and added responsive touch controls for mobile compatibility.',
+    challenges: 'Balancing the three difficulty levels to ensure Easy is accessible, Medium is challenging, and Hard is genuinely difficult while maintaining smooth performance across different devices and screen sizes.',
+    futureImprovements: 'Adding sound effects and background music, implementing a high-score leaderboard with local storage, creating multiple car selection options, adding power-ups and nitro boost mechanics, and developing a multiplayer mode.',
+    images: [
+      { src: carRacingMenu, alt: 'Car Racing Game - Main Menu', caption: 'Main Menu with Difficulty Selection' },
+      { src: carRacingGameplay, alt: 'Car Racing Game - Gameplay', caption: 'Active Gameplay with Player and Enemy Cars' },
+      { src: carRacingGameplay2, alt: 'Car Racing Game - Coin Collection', caption: 'Coin Collection and Score Tracking' },
+      { src: carRacingGameOver, alt: 'Car Racing Game - Game Over Screen', caption: 'Game Over Screen with Final Statistics' }
+    ],
+    githubLink: 'https://github.com/mujtabaabbas1214-cyber/car-racing-game',
+    liveDemoLink: 'https://car-racing-game-plum.vercel.app',
     figmaLink: '',
     colabLink: '',
     videoLink: '',
