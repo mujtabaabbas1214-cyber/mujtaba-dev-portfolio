@@ -3,43 +3,43 @@
    ========================================================================== */
 
 :root {
-  /* Color Palette - Premium Dark SaaS Theme */
-  --bg-primary: #070a12;
-  --bg-secondary: #0d121f;
-  --bg-tertiary: #141b2d;
-  --bg-card: rgba(15, 23, 42, 0.72);
-  --bg-card-hover: rgba(30, 41, 59, 0.85);
-  --bg-glass: rgba(15, 23, 42, 0.65);
+  /* Color Palette - Modern Lighter Slate SaaS Theme */
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --bg-tertiary: #273549;
+  --bg-card: rgba(30, 41, 59, 0.75);
+  --bg-card-hover: rgba(51, 65, 85, 0.85);
+  --bg-glass: rgba(30, 41, 59, 0.65);
   
   /* Borders */
-  --border-subtle: rgba(255, 255, 255, 0.08);
-  --border-card: rgba(148, 163, 184, 0.12);
-  --border-card-hover: rgba(56, 189, 248, 0.35);
+  --border-subtle: rgba(255, 255, 255, 0.12);
+  --border-card: rgba(148, 163, 184, 0.2);
+  --border-card-hover: rgba(56, 189, 248, 0.45);
   
   /* Text */
-  --text-primary: #f8fafc;
-  --text-secondary: #94a3b8;
-  --text-muted: #64748b;
+  --text-primary: #ffffff;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
   --text-accent: #38bdf8;
   
   /* Brand Accent & Gradients */
   --accent-cyan: #38bdf8;
-  --accent-indigo: #6366f1;
-  --accent-purple: #8b5cf6;
-  --accent-emerald: #10b981;
-  --accent-orange: #f97316;
+  --accent-indigo: #818cf8;
+  --accent-purple: #a78bfa;
+  --accent-emerald: #34d399;
+  --accent-orange: #fb923c;
   
-  --gradient-primary: linear-gradient(135deg, #38bdf8 0%, #6366f1 100%);
-  --gradient-accent: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #ec4899 100%);
-  --gradient-card: linear-gradient(180deg, rgba(30, 41, 59, 0.4) 0%, rgba(15, 23, 42, 0.7) 100%);
-  --gradient-glow: radial-gradient(circle at 50% 0%, rgba(56, 189, 248, 0.15), transparent 70%);
+  --gradient-primary: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
+  --gradient-accent: linear-gradient(135deg, #818cf8 0%, #a78bfa 50%, #f472b6 100%);
+  --gradient-card: linear-gradient(180deg, rgba(51, 65, 85, 0.4) 0%, rgba(30, 41, 59, 0.7) 100%);
+  --gradient-glow: radial-gradient(circle at 50% 0%, rgba(56, 189, 248, 0.18), transparent 70%);
 
   /* Shadows */
-  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
-  --shadow-md: 0 8px 24px -4px rgba(0, 0, 0, 0.45);
-  --shadow-lg: 0 20px 40px -10px rgba(0, 0, 0, 0.6);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 8px 24px -4px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 20px 40px -10px rgba(0, 0, 0, 0.45);
   --shadow-glow: 0 0 35px -5px rgba(56, 189, 248, 0.25);
-  --shadow-glow-indigo: 0 0 35px -5px rgba(99, 102, 241, 0.25);
+  --shadow-glow-indigo: 0 0 35px -5px rgba(129, 140, 248, 0.25);
 
   /* Typography */
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -93,7 +93,7 @@ body::before {
   left: 10%;
   width: 600px;
   height: 600px;
-  background: radial-gradient(circle, rgba(56, 189, 248, 0.08) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(2, 132, 199, 0.06) 0%, transparent 70%);
   pointer-events: none;
   z-index: 0;
 }
@@ -105,7 +105,7 @@ body::after {
   right: 5%;
   width: 700px;
   height: 700px;
-  background: radial-gradient(circle, rgba(99, 102, 241, 0.06) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(79, 70, 229, 0.04) 0%, transparent 70%);
   pointer-events: none;
   z-index: 0;
 }
@@ -116,17 +116,17 @@ body::after {
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--bg-primary);
+  background: var(--bg-secondary);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #1e293b;
+  background: #cbd5e1;
   border-radius: var(--radius-pill);
-  border: 2px solid var(--bg-primary);
+  border: 2px solid var(--bg-secondary);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #334155;
+  background: #94a3b8;
 }
 
 /* Typography Hierarchy */
@@ -256,8 +256,8 @@ code, pre {
   gap: 0.5rem;
   padding: 0.35rem 1rem;
   border-radius: var(--radius-pill);
-  background: rgba(56, 189, 248, 0.1);
-  border: 1px solid rgba(56, 189, 248, 0.25);
+  background: rgba(2, 132, 199, 0.1);
+  border: 1px solid rgba(2, 132, 199, 0.25);
   color: var(--accent-cyan);
   font-size: 0.85rem;
   font-weight: 600;
@@ -336,17 +336,17 @@ code, pre {
 }
 
 .btn-secondary {
-  background: rgba(30, 41, 59, 0.6);
+  background: rgba(241, 245, 249, 0.8);
   color: var(--text-primary);
   border-color: var(--border-subtle);
   backdrop-filter: blur(8px);
 }
 
 .btn-secondary:hover {
-  background: rgba(51, 65, 85, 0.8);
-  border-color: rgba(255, 255, 255, 0.2);
+  background: rgba(226, 232, 240, 0.9);
+  border-color: rgba(0, 0, 0, 0.2);
   transform: translateY(-2px);
-  color: #ffffff;
+  color: var(--text-primary);
 }
 
 .btn-outline {
@@ -383,7 +383,7 @@ code, pre {
   border-radius: var(--radius-pill);
   font-size: 0.78rem;
   font-weight: 500;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.03);
   border: 1px solid var(--border-subtle);
   color: var(--text-secondary);
   transition: all var(--transition-fast);
@@ -391,14 +391,14 @@ code, pre {
 
 .badge:hover {
   color: var(--text-primary);
-  border-color: rgba(255, 255, 255, 0.2);
-  background: rgba(255, 255, 255, 0.09);
+  border-color: rgba(0, 0, 0, 0.15);
+  background: rgba(0, 0, 0, 0.06);
 }
 
 .badge-featured {
-  background: rgba(99, 102, 241, 0.15);
-  border-color: rgba(99, 102, 241, 0.35);
-  color: #a5b4fc;
+  background: rgba(79, 70, 229, 0.1);
+  border-color: rgba(79, 70, 229, 0.25);
+  color: #4f46e5;
 }
 
 /* Grid Utilities */
@@ -471,7 +471,7 @@ code, pre {
   width: 100%;
   padding: 0.9rem 1.2rem;
   border-radius: var(--radius-md);
-  background: rgba(15, 23, 42, 0.6);
+  background: rgba(255, 255, 255, 0.8);
   border: 1px solid var(--border-subtle);
   color: var(--text-primary);
   font-family: var(--font-sans);
@@ -482,8 +482,8 @@ code, pre {
 .form-input:focus, .form-textarea:focus {
   outline: none;
   border-color: var(--accent-cyan);
-  background: rgba(15, 23, 42, 0.85);
-  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.15);
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
 }
 
 .form-textarea {

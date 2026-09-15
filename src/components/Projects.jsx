@@ -7,7 +7,7 @@ export default function Projects() {
   const [filter, setFilter] = useState('all');
 
   const filterOptions = [
-    { id: 'all', label: 'All Projects (6)', icon: Layers },
+    { id: 'all', label: `All Projects (${projects.length})`, icon: Layers },
     { id: 'ai', label: 'AI & Full-Stack', icon: Sparkles },
     { id: 'mobile', label: 'Android Mobile', icon: Smartphone },
     { id: 'design', label: 'UI/UX & HCI', icon: Cpu },
@@ -16,10 +16,10 @@ export default function Projects() {
 
   const filteredProjects = projects.filter((project) => {
     if (filter === 'all') return true;
-    if (filter === 'ai') return project.category.includes('AI');
+    if (filter === 'ai') return project.category.includes('AI') || project.category.includes('Full-Stack');
     if (filter === 'mobile') return project.category.includes('Android');
     if (filter === 'design') return project.category.includes('UI/UX');
-    if (filter === 'database') return project.category.includes('Database') || project.category.includes('Python');
+    if (filter === 'database') return project.category.includes('Database') || project.category.includes('Python') || project.category.includes('DSA');
     return true;
   });
 

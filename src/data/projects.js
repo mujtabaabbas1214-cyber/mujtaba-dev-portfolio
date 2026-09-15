@@ -48,6 +48,16 @@ import carRacingGameplay from '../assets/images/projects/car-racing-game/Gamepla
 import carRacingGameplay2 from '../assets/images/projects/car-racing-game/Gameplay2.png';
 import carRacingGameOver from '../assets/images/projects/car-racing-game/GameOver.png';
 
+// 09 — SmartRoute (Route Optimization & DSA Visualization)
+import smartRouteDashboard from '../assets/images/projects/smartroute/Dashboard.png';
+import smartRouteKarachiNetwork from '../assets/images/projects/smartroute/Karachi Network.png';
+import smartRouteGraphOverview from '../assets/images/projects/smartroute/Graph Overview.png';
+import smartRouteQuickActions from '../assets/images/projects/smartroute/Quick Actions.png';
+import smartRouteRouteOptimizer from '../assets/images/projects/smartroute/Route Optimizer.png';
+import smartRouteRouteResults from '../assets/images/projects/smartroute/Route Results.png';
+import smartRouteRouteVisualization from '../assets/images/projects/smartroute/Route Visualization.png';
+import smartRouteAlgorithmVisualizer from '../assets/images/projects/smartroute/Algorithm Visualizer.png';
+
 export const projects = [
   {
     id: 'ai-agent-platform',
@@ -363,6 +373,49 @@ export const projects = [
     ],
     githubLink: 'https://github.com/mujtabaabbas1214-cyber/car-racing-game',
     liveDemoLink: 'https://car-racing-game-chi-blue.vercel.app',
+    figmaLink: '',
+    colabLink: '',
+    videoLink: '',
+    apkLink: ''
+  },
+  {
+    id: 'smartroute',
+    slug: 'smartroute',
+    number: '09',
+    name: 'SmartRoute',
+    category: 'Full-Stack Web Application / DSA Visualization',
+    isFeatured: true,
+    isMobile: false,
+    accentGlow: 'blue',
+    description: 'A comprehensive route optimization platform that demonstrates practical applications of Data Structures and Algorithms through interactive visualizations of graph algorithms like BFS, DFS, Dijkstra, and A* search.',
+    longDescription: 'SmartRoute is a full-stack web application that bridges the gap between theoretical algorithms and real-world applications. The platform implements core graph algorithms from scratch and provides interactive visualizations to help users understand how these algorithms work. Users can find optimal routes between locations using various algorithms, visualize algorithm execution step-by-step, compare performance metrics, and learn about DSA concepts through interactive educational content. The system supports both sample city data and real Karachi locations with realistic travel time calculations based on road speeds.',
+    technologies: ['React.js', 'Python', 'FastAPI', 'Vite', 'Data Structures & Algorithms', 'Graph Theory', 'REST APIs', 'CSS3', 'Uvicorn'],
+    features: [
+      'Route optimization using BFS, DFS, Dijkstra, and A* algorithms',
+      'Interactive real-time algorithm visualization with animation controls',
+      'Algorithm performance comparison with detailed metrics',
+      'Dual graph system: sample city data and real Karachi locations',
+      'Realistic travel time calculations based on road speeds (km/h)',
+      'Educational content explaining DSA concepts and applications',
+      'Custom graph implementation using adjacency lists',
+      'Manual priority queue (min heap) implementation from scratch'
+    ],
+    problem: 'Computer science students often struggle to understand how abstract algorithms like Dijkstra and A* search apply to real-world problems like GPS navigation and logistics optimization.',
+    developmentProcess: 'Developed through iterative implementation starting with custom graph data structures, followed by implementing each algorithm from scratch (BFS, DFS, Dijkstra, A*), building a React.js frontend with interactive visualizations, creating a Python FastAPI backend for algorithm execution, and integrating realistic location data including Karachi city coordinates.',
+    challenges: 'Implementing efficient algorithm visualizations that render smoothly in real-time while handling complex graph data structures, ensuring accurate travel time calculations based on varying road speeds, and creating an intuitive interface that makes complex algorithms accessible to learners.',
+    futureImprovements: 'Integrating real maps API (OpenStreetMap) for actual location data, implementing additional algorithms (Bellman-Ford, Floyd-Warshall), adding user accounts for saving custom graphs and routes, developing a React Native mobile version, and implementing Web Workers for performance optimization.',
+    images: [
+      { src: smartRouteDashboard, alt: 'SmartRoute - Main Dashboard', caption: 'Main Dashboard with Location Network Selection' },
+      { src: smartRouteKarachiNetwork, alt: 'SmartRoute - Karachi City Network', caption: 'Karachi City Network with 61 Locations' },
+      { src: smartRouteGraphOverview, alt: 'SmartRoute - Interactive Graph Visualization', caption: 'Interactive Graph Visualization & Overview' },
+      { src: smartRouteQuickActions, alt: 'SmartRoute - Quick Actions Panel', caption: 'Quick Actions for Route Optimization' },
+      { src: smartRouteRouteOptimizer, alt: 'SmartRoute - Route Optimizer Interface', caption: 'Route Optimizer with Algorithm Selection' },
+      { src: smartRouteRouteResults, alt: 'SmartRoute - Route Calculation Results', caption: 'Optimal Route Results with Performance Metrics' },
+      { src: smartRouteRouteVisualization, alt: 'SmartRoute - Route Map Visualization', caption: 'Visual Route Display on Network Graph' },
+      { src: smartRouteAlgorithmVisualizer, alt: 'SmartRoute - Algorithm Visualizer', caption: 'Step-by-Step Algorithm Execution Visualization' }
+    ],
+    githubLink: 'https://github.com/mujtabaabbas1214-cyber/SmartRoute',
+    liveDemoLink: 'https://smartroute-optimizer.vercel.app',
     figmaLink: '',
     colabLink: '',
     videoLink: '',
